@@ -5,8 +5,8 @@
   "author": "wangdongxu <wangdongxu@wondertek.com.cn>",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
-    "start": "npm run dev",
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js ",
+    "start": "yarn run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js"
   },
